@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<banner>
+	<language id="en">
+		<slide1>
+			<small>Swedens nicest</small>
+			<big>BONUS!</big>
+		</slide1>
+		<slide2>
+			<small>Deposit €10</small>
+			<big>Get €50</big>
+		</slide2>
+		<button>
+			<text>Join us today!</text>
+		</button>
+	</language>
+	<language id="sv">
+		<slide1>
+			<small>Sveriges schysstaste</small>
+			<big>BONUS!</big>
+		</slide1>
+		<slide2>
+			<small>Sätt in 100 kr</small>
+			<big>Få 500 kr</big>
+		</slide2>
+		<button>
+			<text>Bli medlem!</text>
+		</button>
+	</language>
+</banner>

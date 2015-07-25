@@ -1,0 +1,548 @@
+
+article, aside, audio, canvas, command, datalist, details,
+embed, figcaption, figure, footer, header, hgroup, keygen,
+mark, meter, nav, output, progress, rp, rt, ruby, section,
+source, summary, time, video, wbr {display:block;}
+
+body{
+	background: black;
+}
+#wrap{
+	width: 960px;
+	margin: 0 auto;
+	background: black;
+}
+/*Header*/
+#head {
+	display: inline-block;
+}
+
+
+
+/* site logo */
+#logotype {
+	/*margin: 0 auto;*/
+	float: left;
+	width: 188px;
+	transition-duration:1s;
+	-webkit-transition:width 1s, -webkit-transform 1s; /* Safari and Chrome */
+	-moz-transition:width 1s, -moz-transform 1s; /* Firefox 4 */
+	-o-transition:width 1s, -o-transform 1s; /* Opera */
+}
+#logotype:hover{
+	transform:rotateZ(360deg);
+	-webkit-transform:rotateZ(360deg); /* Safari and Chrome */
+	-moz-transform:rotateZ(360deg); /* Firefox 4 */
+	-o-transform:rotateZ(360deg); /* Opera */
+}
+
+#banner{
+	float: right;
+	width: 772px;
+	height: 114px;
+}
+#ticketek{
+	float: right;
+}
+#slogan{
+}
+
+
+
+
+/* menu */
+nav{
+	clear: both;
+	background: white;
+	/*border-bottom: 1px solid black;*/
+	border-radius: 10px 10px 0px 0px;
+}
+.nav{
+    margin:0;
+    text-align:center;
+    /*margin-right: 40px;*/
+    margin-left: 0px;
+}
+.nav li{
+    display: inline;
+	background-image: url('../img/bullet.png');
+	font-size: 1.3em;
+	text-transform: uppercase;
+	background-repeat: no-repeat;
+	background-position: center left;
+	padding-left: 15px;
+}
+.nav li.first{
+	background: none;
+}
+
+.nav a{
+    display:inline-block;
+    padding:10px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Gafata', sans-serif;
+    font-weight: bold;
+    letter-spacing: -2px;
+  }
+.nav a:hover{
+	color: darkgrey;
+}
+
+.nav #redes{
+	background-image: url('../img/rrss.gif');
+	background-repeat: no-repeat;
+	width: 128px;
+	display: inline-block;
+	float: right;
+	height: 27px;
+	position: relative;
+	top: 10px;
+	/*margin-left: -50px;*/
+	margin-right: 27px;
+}
+.nav #redes a{
+	padding: 0;
+	height: 27px;
+	float: left;
+}
+
+
+/* container */
+.container{
+	background: white;
+}
+
+
+#afiche{}
+.aviso{
+	color: black;
+	text-align: center;
+	font-family: 'Rambla', sans-serif;
+	font-size: 2em;
+	margin-top: 20px;
+}
+
+#tickets{
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 15px;
+	display: inline-block;
+}
+#tickets .venta{
+	display: inline-block;
+	background: rgb(255, 255, 255);
+	margin-left: 68px;
+	padding-top: 8px;
+	width: 228px;
+	height: 109px;
+	float: left;
+	vertical-align: middle;
+	border-radius: 10px;
+}
+#tickets .venta:hover{
+	/*background: #5ae1f7;*/
+	background-image: url('../img/var.png');
+	background-size: 31%;
+}
+
+#tickets #ptosventa{
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+#tickets #btnticketek{
+	float: left;
+	clear: both;
+	margin-top: 10px;
+	margin-left: 16px;
+}
+#tickets #btnticketek:hover, #tickets #ptosventa:hover{
+	background-color:lightgray;
+	border-radius: 6px;
+}
+
+#tickets #vtatkt{
+	text-align: center;
+	font-family: 'Rambla', sans-serif;
+	font-size: 2em;
+	float: left;
+	margin-left: 60px;
+}
+
+#sinrecargo #vtasin{
+	font-family: 'Rambla', sans-serif;
+	font-size: 2em;
+	text-align: right;
+	margin-right: 87px;
+}
+#sinrecargo #rudeboys, #sinrecargo #irieconcept, #sinrecargo #kaya{
+	display: inline-block;
+	margin: 10px;
+	float: right;
+}
+#sinrecargo .direccion{
+	font-family: 'Rambla', sans-serif;
+	color: black;
+	font-size: .8em;
+}
+#sinrecargo a .direccion:hover{
+	color: grey;
+}
+#tickets #ubicaciones{
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 14px;
+	margin-top: 15px;
+}
+#tickets #ubicaciones img{
+	border: 10px solid lightgray;
+	padding: 10px;
+}
+.controls{
+	text-align: center;
+	color: white;
+	font-size: 2em;
+}
+.controls a{
+	color: white;
+	text-decoration: none;
+}
+.controls a:hover{
+	color: grey;
+	text-decoration: underline;
+}
+
+
+section#lineup .artist{
+ 	display: inline-block;
+ 	width: 48%;
+ 	vertical-align: top;
+ }
+ section#lineup .artist:hover{
+ 	opacity:0.8;
+ }
+#media{
+	width: 100%;
+	display: inline-block;
+}
+#video{
+	width: 100%;
+	text-align: center;
+	/*background: white;
+	border: 3px solid white;
+	float: left;	
+	height: 350px;
+	border-radius: 5px;
+	display: inline-block;
+	padding-top: 5px;*/
+}
+#social{
+	float: left;
+}
+#twitter{
+	height: 170px;
+	margin-left: 6px;
+	margin-right: 6px;
+	background: rgb(230, 230, 230);
+	width: 252px;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+#face{
+	background: white;
+	width: 251px;
+	margin-left: 6px;
+	margin-top: 6px;
+	border-radius: 5px;
+}
+
+.fb_iframe_widget {
+	margin-top: 5px;
+}
+
+#sponsors{
+	
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+#sponsors .content{
+	background: white;
+	border-radius: 10px;
+}
+#sponsors .cont{
+	/*max-width: 900px;
+	margin: 0 auto;*/
+	margin-left: 12px;
+	padding-top: 15px;
+}
+#sponsors .sponsor{
+	display: inline-block;
+	zoom: 1;
+	margin: 5px 10px;
+	padding: 5px;
+	background: #fff;
+}
+#sponsors .sponsor img{
+	opacity:0.7;
+}
+#sponsors .sponsor img:hover{
+	opacity:1;
+}
+.cat{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 15px;
+}
+#colaboran{
+	width: 16%;
+	margin-right: -5px;
+}
+#colaboran .cat_title{
+	margin-left: 40px;
+}
+
+#radio{
+	width: 13%;
+}
+#radio .cat_title{
+	margin-left: 38px;
+}
+#partners{
+	width: 50%;
+	margin-left: 26px;
+}
+#partners .cat_title{
+	margin-left: 162px;
+}
+#patrocinan{
+	width: 12%;
+}
+#patrocinan .cat_title{
+	margin-left: 42px;
+}
+#otros{
+	width: 18%;
+}
+#otros .cat_title{
+	margin-left: 17px;
+}
+.cat_title{
+	text-align: left;
+	margin-top: 10px;
+	font-family: 'Rambla', sans-serif;
+}
+
+/* footer */
+#footer{
+
+}
+.bottomnav{
+    margin-left: -40px;
+    text-align:center;
+}
+.bottomnav li{
+    display: inline;
+	background-image: url('../img/bullet.png');
+	background-repeat: no-repeat;
+	background-position: center left;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	padding-left: 10px;
+}
+.bottomnav li.first{
+	background: none;
+}
+
+.bottomnav a{
+    display:inline-block;
+    padding:10px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Gafata', sans-serif;
+    font-weight: bold;
+    letter-spacing: -2px;
+  }
+.bottomnav a:hover{
+	color: darkgrey;
+}
+
+#copyr{
+	font-family: 'Rambla', sans-serif;
+	color: black;
+	display: block;
+	text-align: center;
+}
+#webdesign{
+	font-family: 'Rambla', sans-serif;
+	font-size: 12px;
+	color: black;
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+}
+#webdesign img{
+	vertical-align: middle;
+	opacity:0.7;
+}
+#webdesign img:hover{
+	opacity:1;
+}
+#webdesign a{
+	text-decoration: none;
+	color: black;
+}
+#webdesign a:hover{
+	text-decoration: underline;
+	color: darkgrey;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/*
+MEDIA QUERIES
+(max-device-width: 480px)
+*/
+@media screen and (max-width: 600px) {
+ img{
+	max-width: 100%;
+ }
+ video {
+  width: 100%    !important;
+  height: auto   !important;
+ }
+ #wrap{
+ 	width: 90%;
+ }
+ #wrap #head{
+ 	display: block;
+ }
+ #wrap #head #logotype{
+ 	float: none;
+ 	margin: 0 auto;
+ 	text-align: center;
+
+ }
+ #wrap #head #logotype img{
+ 	max-width: 90%;
+ 	
+ }
+ #wrap #head #banner{
+ 	display: none;
+ }
+ #wrap nav ul.nav {
+ 	padding-left: 0px;
+ }
+ #wrap nav ul.nav li {
+ 	background: none;
+ 	display: block;	
+ 	list-style: none;
+ 	text-align: center;
+ 	font-size: 1em;
+ 	padding: 0;
+ 	line-height: 10px;
+ }
+
+ #afiche a img{
+ 	max-width: 100%;
+ 	height: auto;
+ }
+
+ 
+#tickets #vtatkt{
+	float: none; 
+ 	margin-left: 0px;
+ 	font-size: 1.3em;
+}
+#tickets #vtasin{
+	text-align: center; 
+	margin-right: 0px;
+	font-size: 1.3em;
+}
+
+#tickets #btnticketek, #tickets #ptosventa{
+	display: inline-block;
+	float: none;
+	clear: none;
+	margin: 0;
+	padding: 0;
+	width: 44%;
+}
+#sinrecargo #rudeboys, #sinrecargo #irieconcept, #sinrecargo #kaya {
+	float: none; 
+	width: 25%;
+	vertical-align: middle;
+}
+
+#tickets #ubicaciones img{
+	max-width: 100%;
+	border: none;
+	padding: 0;
+}
+
+section#lineup .artist{
+	width: 100%;
+}
+section#lineup .artist img{
+	max-width: 100%;
+}
+
+#colaboran, #radio, #patrocinan, #partners{
+	width: inherit;
+}
+#colaboran, #radio, #patrocinan{
+	width: 48%;
+}
+#colaboran .cat_title, #partners .cat_title, #radio .cat_title, #patrocinan .cat_title{
+	margin-left: 0px;
+	text-align: center;
+	display: block;
+}
+#partners {
+	margin-left: 20px;
+}
+#partners .cat_title {
+	text-align: left;
+	}
+#sponsors .cont{
+	margin: 0;
+	padding: 0;
+}
+#sponsors .cont img{
+	height: inherit;
+	max-height: 
+}
+#sponsors .sponsor{
+	margin: 0;
+}
+.cat{
+	margin-right: 0px;
+}
+
+#partners img{
+	max-height: 50px;
+}
+#copyr{
+	font-size: 0.8em;
+}
+#webdesign a {
+	font-size: 0.8em;
+}
+.no-mobile{
+	display: none !important;
+}
+}

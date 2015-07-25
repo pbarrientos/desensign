@@ -1,0 +1,1153 @@
+/*------------ /FIN NORMALIZE.CSS -------------*/
+
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+
+/**
+ * Correct `block` display not defined in IE 8/9.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9.
+ * Hide the `template` element in IE, Safari, and Firefox < 22.
+ */
+
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+
+a {
+  background: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Address styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ */
+
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari 5, and Chrome.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove border when inside `a` element in IE 8/9.
+ */
+
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * Address margin not present in IE 8/9 and Safari 5.
+ */
+
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit; /* 1 */
+  font: inherit; /* 2 */
+  margin: 0; /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10.
+ */
+
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8+, and Opera
+ * Correct `select` style inheritance in Firefox.
+ */
+
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+  cursor: pointer; /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+
+input[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box; /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+
+legend {
+  border: 0; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+
+/**
+ * Remove most spacing between table cells.
+ */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+ 
+/*------------ /FIN NORMALIZE.CSS -------------*/
+article, aside, audio, canvas, command, datalist, details,
+embed, figcaption, figure, footer, header, hgroup, keygen,
+mark, meter, nav, output, progress, rp, rt, ruby, section,
+source, summary, time, video, wbr {display:block;}
+
+body{
+	background: black;
+	margin-top: 10px;
+}
+#wrap{
+	background: black;
+	margin: 0 auto;
+	width: 960px;
+}
+/*Header*/
+#head {
+	display: inline-block;
+}
+
+
+
+/* site logo */
+#logotype {
+	/*margin: 0 auto;*/
+	float: left;
+	width: 188px;
+	-webkit-animation: bounceIn 0.6s;
+	-moz-animation: bounceIn 0.6s;
+	-o-animation: bounceIn 0.6s;
+	-ms-animation: bounceIn 0.6s;
+	animation: bounceIn 0.6s;
+	
+	-webkit-transform: rotate(0deg) scale(1) translateZ(0);
+	-moz-transform: rotate(0deg) scale(1) translateZ(0);
+	transform: rotate(0deg) scale(1) translateZ(0);
+
+	transition: all 0.4s cubic-bezier(.8,1.8,.75,.75);
+	cursor: pointer;
+}
+#logotype:hover{
+	-webkit-transform: rotate(5deg) scale(1.1);
+	-moz-transform: rotate(5deg) scale(1.1);
+	transform: rotate(5deg) scale(1.1);
+}
+@-webkit-keyframes bounceIn {
+  0% {
+    opacity: 1;
+    transform: scale(.3);
+  } 
+
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  } 
+
+  70% {
+    opacity: 1;
+    transform: scale(.9);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@-moz-keyframes bounceIn {
+  0% {
+    opacity: 1;
+    transform: scale(.3);
+  } 
+
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  } 
+
+  70% {
+    opacity: 1;
+    transform: scale(.9);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+#banner{
+	float: right;
+	height: 114px;
+	width: 772px;
+}
+#banner img{
+	border-radius: 10px;
+}
+
+#ticketek{
+	float: right;
+}
+#slogan{
+}
+
+
+
+
+/* menu */
+nav{
+	background: white;
+	/* border-bottom: 1px solid black; */
+	border-radius: 10px 10px 0px 0px;
+	clear: both;
+}
+.nav{
+    margin:0;
+    margin-left: 0px;
+    /* margin-right: 40px; */
+    padding-left: 0;
+    text-align:center;
+}
+.nav li{
+	background-image: url('../img/bullet.png');
+	background-position: center left;
+	background-repeat: no-repeat;
+    display: inline;
+	font-size: 1.3em;
+	padding-left: 10px;
+	text-transform: uppercase;
+}
+.nav li.first{
+	background: none;
+}
+
+.nav a{
+    color: black;
+    display:inline-block;
+    font-family: 'Gafata', sans-serif;
+    font-weight: bold;
+    letter-spacing: -2px;
+    padding:10px 20px;
+    text-decoration: none;
+  }
+.nav a:hover{
+	color: darkgrey;
+}
+
+.nav #redes{
+	background-image: url('../img/rrss.gif');
+	background-repeat: no-repeat;
+	display: inline-block;
+	float: right;
+	height: 27px;
+	/* margin-left: -50px; */
+	margin-right: 27px;
+	position: relative;
+	top: 10px;
+	width: 128px;
+}
+.nav #redes a{
+	float: left;
+	height: 27px;
+	padding: 0;
+}
+.redes-sociales{
+
+}
+.redes-sociales img{
+	width: 60px;
+}
+.redes-sociales img:hover{
+  -webkit-animation: .2s redes;
+  -webkit-animation-fill-mode: forwards;
+}
+@-webkit-keyframes redes{
+  0%
+  {-webkit-transform:scale(1);-o-transform:scale(1);-ms-transform:scale(1);-moz-transform:scale(1);transform:scale(1)
+  }
+  100%
+  {-webkit-transform:scale(1.1);-o-transform:scale(1.1);-ms-transform:scale(1.1);-moz-transform:scale(1.1);transform:scale(1.1)
+  }
+}
+
+/* container */
+.container{
+	background: white;
+}
+
+
+#afiche{}
+.aviso{
+	color: black;
+	font-family: 'Rambla', sans-serif;
+	font-size: 2em;
+	margin-top: 20px;
+	text-align: center;
+}
+
+#tickets{
+	display: inline-block;
+	margin: 0 auto;
+	padding-top: 15px;
+	text-align: center;
+	width: 100%;
+}
+#tickets .venta{
+	background: rgb(255, 255, 255);
+	border-radius: 10px;
+	display: inline-block;
+	float: left;
+	height: 109px;
+	margin-left: 68px;
+	padding-top: 8px;
+	vertical-align: middle;
+	width: 228px;
+}
+#tickets .venta:hover{
+	/* background: #5ae1f7; */
+	background-image: url('../img/var.png');
+	background-size: 31%;
+}
+
+#tickets #ptosventa{
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+#tickets #btnticketek{
+	clear: both;
+	float: left;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+/*#tickets #btnticketek:hover, #tickets #ptosventa:hover{
+	background-color:lightgray;
+	border-radius: 6px;
+}*/
+
+#tickets #vtatkt{
+	float: left;
+	font-family: 'Rambla', sans-serif;
+	font-size: 2em;
+	margin-left: 60px;
+	text-align: center;
+}
+
+#sinrecargo #vtasin{
+	font-family: 'Rambla', sans-serif;
+	font-size: 2em;
+	margin-right: 87px;
+	text-align: right;
+}
+#sinrecargo #rudeboys, #sinrecargo #needle, #sinrecargo #irieconcept, #sinrecargo #kaya{
+	display: inline-block;
+	float: right;
+	margin: 10px;
+	margin-right: 42px;
+}
+#needle img{
+	margin-bottom: 10px;
+}
+#sinrecargo .direccion{
+	color: black;
+	font-family: 'Rambla', sans-serif;
+	font-size: .8em;
+}
+#sinrecargo a .direccion:hover{
+	color: grey;
+}
+#tickets #ubicaciones{
+	display: inline-block;
+	margin-bottom: 14px;
+	margin-top: 15px;
+	width: 100%;
+}
+#tickets #ubicaciones img{
+	border: 10px solid lightgray;
+	padding: 10px;
+}
+.controls{
+	color: white;
+	font-size: 2em;
+	text-align: center;
+}
+.controls a{
+	color: white;
+	text-decoration: none;
+}
+.controls a:hover{
+	color: grey;
+	text-decoration: underline;
+}
+
+
+section#lineup .artist{
+	font-family: 'Rambla', sans-serif;
+ 	display: inline-block;
+	padding: 1em;
+	vertical-align: top;
+	width: 46%;
+ }
+section#lineup .artist .fig-artist {
+	float: left;
+	margin: 0 1em 0 0;
+}
+section#lineup .artist .fig-artist img {
+	border-radius: 10px;
+}
+section#lineup .artist h3 {
+	float: left;
+	margin: 0;
+}
+section#lineup .artist p {
+	text-align: justify;
+}
+ section#lineup .artist:hover{
+ 	opacity:0.8;
+ }
+#media{
+	display: inline-block;
+	width: 100%;
+}
+#video{
+	/* background: white; */
+	/* border: 3px solid white; */
+	/* border-radius: 5px; */
+	/* display: inline-block; */
+	/* float: left; */
+	/* height: 350px; */
+	/* padding-top: 5px; */
+	text-align: center;
+	width: 100%;
+}
+#social{
+	float: left;
+}
+#twitter{
+	background: rgb(230, 230, 230);
+	border-radius: 5px;
+	display: inline-block;
+	height: 170px;
+	margin-left: 6px;
+	margin-right: 6px;
+	width: 252px;
+}
+
+#face{
+	background: white;
+	border-radius: 5px;
+	margin-left: 6px;
+	margin-top: 6px;
+	width: 251px;
+}
+
+.fb_iframe_widget {
+	margin-top: 5px;
+}
+
+#sponsors{
+	margin-top: 35px;
+	margin-bottom: 20px;
+}
+#sponsors .content{
+	background: white;
+	border-radius: 10px;
+}
+#sponsors .cont{
+	/* max-width: 900px; */
+	padding-top: 15px;
+}
+#sponsors .sponsor{
+	background: #fff;
+	display: inline-block;
+	margin: 5px 10px;
+	padding: 5px;
+	zoom: 1;
+}
+#sponsors .sponsor img{
+	opacity:0.7;
+}
+#sponsors .sponsor img:hover{
+	opacity:1;
+}
+.cat{
+	display: inline-block;
+	margin-right: 15px;
+	vertical-align: top;
+	height: 140px;
+	text-align: center;
+	border-right: 1px solid lightgrey;
+}
+#auspicia{
+	width: 16%;
+	margin-left: 86px;
+}
+#colabora{
+	width: 35%;
+}
+#colabora .sponsor{
+	margin: 5px 3px;
+}
+#colabora .cat_title{
+	display: block;
+	text-align: center;
+}
+#patrocina{
+	width: 10%;
+	padding-right: 16px;
+}
+#produce{
+	width: 10%;
+	border-right: none;
+}
+#partners{
+	margin: 0 auto;
+	display: block;
+	border-right: none;
+}
+#partners .cat_title{
+	text-align: center;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: -15px;
+}
+
+#otros{
+	width: 18%;
+}
+#otros .cat_title{
+	margin-left: 17px;
+}
+.cat_title{
+	font-family: 'Rambla', sans-serif;
+	text-align: left;
+	text-decoration: underline;
+}
+
+.sliderflickr{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background: black;
+}
+
+/* footer */
+#footer{
+
+}
+.bottomnav{
+    margin-left: -40px;
+    text-align:center;
+}
+.bottomnav li{
+   	background-image: url('../img/bullet.png');
+	background-position: center left;
+	background-repeat: no-repeat;
+ 	display: inline;
+	font-size: 1.2em;
+	padding-left: 10px;
+	text-transform: uppercase;
+}
+.bottomnav li.first{
+	background: none;
+}
+
+.bottomnav a{
+    color: black;
+    display:inline-block;
+    font-family: 'Gafata', sans-serif;
+    font-weight: bold;
+    letter-spacing: -2px;
+    padding:10px;
+    text-decoration: none;
+  }
+#footer{
+  	margin-top: 20px;
+  }
+#footer .redes-sociales {
+  	text-align: center;
+  }
+#footer .redes-sociales a{
+  	padding: 10px 20px;
+  	text-decoration: none;
+  }
+.bottomnav a:hover{
+	color: darkgrey;
+}
+
+#copyr{
+	color: black;
+	display: block;
+	font-family: 'Rambla', sans-serif;
+	text-align: center;
+	margin-top: 15px;
+}
+#webdesign{
+	color: black;
+	display: block;
+	font-family: 'Rambla', sans-serif;
+	font-size: 12px;
+	margin-top: 10px;
+	text-align: center;
+}
+#webdesign img{
+	opacity:0.7;
+	vertical-align: middle;
+}
+#webdesign img:hover{
+	opacity:1;
+}
+#webdesign a{
+	color: black;
+	text-decoration: none;
+}
+#webdesign a:hover{
+	color: darkgrey;
+	text-decoration: underline;
+}
+
+.videoWrapper {
+	height: 0;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	position: relative;
+}
+.videoWrapper iframe {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+/*
+MEDIA QUERIES
+(max-device-width: 480px)
+*/
+@media screen and (max-width: 600px) {
+ img{
+	max-width: 100%;
+ }
+ video {
+  width: 100%    !important;
+  height: auto   !important;
+ }
+ #wrap{
+ 	width: 90%;
+ }
+ #wrap #head{
+ 	display: block;
+ }
+ #wrap #head #logotype{
+ 	float: none;
+ 	margin: 0 auto;
+ 	text-align: center;
+
+ }
+ #wrap #head #logotype img{
+ 	max-width: 90%;
+ 	
+ }
+ #wrap #head #banner{
+ 	display: none;
+ }
+ #wrap nav ul.nav {
+ 	padding-left: 0px;
+ }
+ #wrap nav ul.nav li {
+ 	background: none;
+ 	display: block;
+	font-size: 2em;	
+ 	list-style: none;
+ 	padding: 0;
+ 	text-align: center;
+ }
+ .nav a{
+ 	padding: 10px 0px;
+ }
+ .nav a img{
+ 	padding: 10px 0px;
+ 	width: 50px;
+ }
+ #media > div.sliderflickr > div{
+ 	width: 100%;
+ }
+ #media > div.sliderflickr > div > object > embed{
+ 	width: 100%;
+ }
+
+ #footer .redes-sociales a{
+	padding: 10px 2px;
+}
+#footer .redes-sociales a img{
+	width: 50px;
+}
+
+ #afiche a img{
+ 	height: auto;
+ 	max-width: 100%;
+ }
+
+ 
+#tickets #vtatkt{
+	float: none;
+ 	font-size: 1.3em; 
+ 	margin-left: 0px;
+}
+#tickets #vtasin{
+	font-size: 1.3em; 
+	margin-right: 0px;
+	text-align: center;
+}
+
+#tickets #btnticketek, #tickets #ptosventa{
+	clear: none;
+	display: inline-block;
+	float: none;
+	margin: 0;
+	padding: 0;
+	width: 44%;
+}
+#sinrecargo #rudeboys, #sinrecargo #irieconcept, #sinrecargo #kaya {
+	float: none;
+	vertical-align: middle; 
+	width: 25%;
+}
+
+#tickets #ubicaciones img{
+	border: none;
+	max-width: 100%;
+	padding: 0;
+}
+
+section#lineup .artist{
+	width:90%;
+	display: block;
+	margin: 0 auto;
+	height: 220px;
+	border-bottom: 1px solid lightgray;
+	padding-bottom: 30px;
+}
+section#lineup .artist .fig-artist{
+	margin: 0 auto;
+	display: block;
+	float: none;
+	margin: 0;
+	display: block;
+}
+section#lineup .artist p{
+	font-size: .8em;
+	margin-top: -16px;
+}
+section#lineup .artist img{
+	max-width: 100%;
+	border-radius: 10px;
+	margin: 0 auto;
+	display: block;
+}
+section#lineup .artist h3{
+	float: none;
+	text-align: center;
+	margin: 0 auto;
+}
+.cat_title{
+	display: block;
+	text-align: center;
+}
+#auspicia{
+	width: 25%;
+	margin-left: 10px;
+}
+#auspicia img{
+	max-width: 60px;
+	height: auto;
+}
+#colabora{
+	width: 68%;
+	border-right: none;
+}
+#colabora img{
+	max-width: 55px;
+	height: auto;
+}
+#colabora img:nth-child(1){
+	max-width: 45px;
+	height: auto;
+}
+#auspicia, #colabora{
+	height: 100px;
+}
+#patrocina, #produce{
+	width: 45%;
+	margin-top: 15px;
+	height: 100px;
+}
+#patrocina img, #produce img{
+	height: 70px;
+}
+#colabora .cat_title, #partners .cat_title, #auspicia .cat_title, #patrocina .cat_title{
+	display: block;
+	margin-left: 0px;
+	text-align: center;
+}
+#partners {
+	
+}
+#partners .cat_title{
+	margin-bottom: 0;
+}
+#sponsors .cont{
+	margin: 0;
+	padding: 0;
+}
+
+#sponsors .sponsor{
+	margin: 0;
+}
+#sponsors #colabora a{
+	text-align: center;
+}
+.cat{
+	margin-right: 0px;
+}
+
+#partners img{
+	max-height: 50px;
+}
+#copyr{
+	font-size: 0.8em;
+}
+#webdesign a {
+	font-size: 0.8em;
+}
+.no-mobile{
+	display: none !important;
+}
+}

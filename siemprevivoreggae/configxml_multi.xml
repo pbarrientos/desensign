@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <param name="mp3" value="mp3/Morodo-Fumo_marihuana.mp3|mp3/Morodo-La_Yerba_Del_Rey.mp3|mp3/Morodo-Rap_n_Party.mp3|mp3/Morodo-Mas_yama.mp3|mp3/Morodo-Noches_de_humo.mp3|mp3/Morodo-Que_Vas_a_Hacer.mp3|mp3/Morodo-Tu_eres_como_el_fuego.mp3|mp3/Sig-Ragga-Abrir_y_cerrar_de_noches.mp3|mp3/Sig-Ragga-Cuchillos.mp3|mp3/Sig-Ragga-Feliz.mp3|mp3/Sig-Ragga-Orquesta_en_Descomposicion.mp3|mp3/Sig-Ragga-Resistencia_Indigena.mp3|mp3/Bubaseta-feat-Movimiento-Original-Cuatro_Compases.mp3|mp3/Bubaseta-feat-Stailok-Flota.mp3|mp3/RootzSelekta-Anthony-B-Dubplate.mp3|mp3/Tiano-Bless-Siga_tu_instinto.mp3|mp3/Aflora-Escuchalo.mp3|mp3/Santo-Bando-La_tribu_unificada.mp3|mp3/Abya-Yala-Open_Close.mp3|mp3/Newen-Afrobeat-P.D.T.N.mp3|mp3/Reggaemusic-Anthony-B-Dubplate.mp3"/>
+    <param name="title" value="Morodo - Fumo marihuana|Morodo - La yerba del rey|Morodo - Rap n' Party|Morodo - Mas yama|Morodo - Noches de humo|Morodo - Que vas a hacer|Morodo - Tu eres como el fuego|Sig Ragga - Abrir y cerrar de noches|Sig Ragga - Cuchillos|Sig Ragga - Feliz|Sig Ragga - Orquesta en descomposicion|Sig Ragga - Resistencia indigena|Bubaseta ft. Movimiento Original - Cuatro Compases|Bubaseta ft. Stailok - Flota|RootzSelekta ft. Anthony B - Dubplate|Tiano Bless - Siga tu instinto|Aflora - Escúchalo|Santo Bando - La tribu unificada|Abya Yala - Open close|Newen Afrobeat - P.D.T.N.|Dj Elajah ft. Anthony B - Dubplate|"/>
+    <param name="width" value="300"/>
+    <param name="height" value="350"/>
+    <param name="volume" value="75"/>
+    <param name="showvolume" value="1"/>
+    <param name="volumewidth" value="40"/>
+    <param name="showplaylistnumbers" value="0"/>
+    <param name="bgcolor" value="000000"/>
+    <param name="bgcolor1" value="222222"/>
+    <param name="bgcolor2" value="888888"/>
+</config>

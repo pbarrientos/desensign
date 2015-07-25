@@ -1,0 +1,572 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+$brown : #4f453e;
+
+html,
+button,
+input,
+select,
+textarea {
+    color: $brown;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
+a{
+    color: rgb(80, 136, 21);
+}
+
+
+/* ==============
+    MOBILE: Menu
+    ============== */
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav a {
+        display: block;
+        margin-bottom: 10px;
+        padding: 15px 0;
+
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+
+        color: white;
+    }
+
+    nav a:hover,
+    nav a:visited {
+        color: white;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+/* ==============
+    MOBILE: Main
+    ============== */
+
+
+
+    .footer-container footer {
+        color: white;
+        padding: 20px 0;
+    }
+
+/* ===============
+    ALL: IE Fixes
+    =============== */
+
+    .ie7 .title {
+        padding-top: 20px;
+    }
+
+/* ==========================================================================
+   HairPeace's custom styles
+   ========================================================================== */
+
+   @font-face {
+      font-family: 'century-gothic' !important;
+      src: url('../fonts/century-gothic.eot'); 
+      src: url('../fonts/century-gothic.eot?#iefix') format('embedded-opentype'), 
+      url('../fonts/century-gothic.woff') format('woff'),
+      url('../fonts/century-gothic.ttf')  format('truetype'),
+      url('../fonts/century-gothic.svg#svgFontName') format('svg'); 
+  }
+
+  @font-face {
+    font-family: 'minimalregular';
+    src: url('../fonts/minimal-webfont.eot');
+    src: url('../fonts/minimal-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/minimal-webfont.woff2') format('woff2'),
+    url('../fonts/minimal-webfont.woff') format('woff'),
+    url('../fonts/minimal-webfont.ttf') format('truetype'),
+    url('../fonts/minimal-webfont.svg#minimalregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.wrapper{
+    max-width: 960px;
+    margin: 0 auto
+}
+header.page-header{
+    width: 100%;
+}
+
+header.page-header h1{
+    font-family: "minimalregular", Arial, sans-serif;
+    font-size: 5em;
+    text-align: center;
+    color: $brown;
+    font-weight: normal;
+}
+
+
+header.page-header .logo{
+    width: 75%;
+    margin: 20px auto -30px;
+    
+}
+header.page-header .logo #imageLoading{
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+
+div.cont{
+    width: 90%;
+    margin: 0 auto;
+}
+div.cont nav ul li.menu-item a.menu-link{
+    background: $brown;
+    font-size: 1.3em;
+}
+
+/*  Om Oss  */
+div.cont .om-oss{
+
+}
+div.cont .om-oss-text, div.cont .priser,div.cont .galleri, div.cont .kontakt{
+    margin-bottom: 10px;
+    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, .5);
+    padding: 10px;
+    text-align: justify;
+}
+div.cont .om-oss .hairstylists{
+    text-align: center;
+    overflow: auto;
+}
+div.cont .om-oss .hairstylists .hairstylist {
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+div.cont .om-oss .hairstylists .hairstylist .avatar-cont img{
+    border: 2px solid grey;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+div.cont .om-oss .hairstylists .hairstylist .avatar-cont{
+    width: 150px;
+    margin: 0 auto;
+}
+div.cont .om-oss .hairstylists .hairstylist .name b{
+    border-bottom: 3px solid grey;
+    font-size: 1em;
+}
+div.cont .om-oss .hairstylists .hairstylist .desc{
+    margin: 10px 0;
+    text-align: justify;
+}
+
+
+/* Galleri*/
+.galleria{ width: 100%; height: 400px; background: rgb(218, 240, 217) }
+
+
+
+
+/* Kontakt */
+#kontakt .address{
+    text-align: center;
+}
+#kontakt .address .street{
+    font-size: 1.2em
+}
+#kontakt .address .phone-icon{
+    width: 20px;
+}
+#kontakt .address .phone a{
+    text-decoration: none;
+}
+#kontakt .address .phone span, #kontakt .address .phone img{
+    vertical-align: middle;
+}
+#kontakt .address .phone{
+    font-size: 1.4em;
+}
+#kontakt .social{
+    width: 270px;
+    margin: 0 auto;
+    text-align: center;
+}
+#kontakt .social .instagram{
+    margin-left: 10px;
+    margin-top: 17px;
+}
+#kontakt .social .instagram a{
+    color: $brown;
+    text-decoration: none;
+}
+#kontakt .social .instagram a span{
+    margin-left: 4px;
+}
+
+.overlay {
+    background:transparent; 
+    position:relative; 
+    width:100%;
+    height:250px; /* your iframe height */
+    top:250px;  /* your iframe height */
+    margin-top:-250px;  /* your iframe height */
+    cursor: pointer;
+}
+
+#back-top {
+    display: none;
+    position: fixed;
+    right: 0;
+    bottom: 100px;
+    z-index: 2000;
+    width: 40px !important;
+}
+
+/*----- Animations ------*/
+#imageLoading {
+    animation: spinHorizontal 10s infinite linear;
+    animation-delay: 3s;
+    -webkit-perspective: 900000px;
+    perspective: 900000px;
+}
+@-webkit-keyframes spinHorizontal {
+    0% {
+        //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+        transform: rotateY(0deg);
+    }
+    20% {
+        //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+        transform: rotateY(360deg);
+    }
+    100% {
+        //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+        transform: rotateY(360deg);
+    }
+}
+@keyframes spinHorizontal {
+    0% {
+        //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+        transform: rotateY(0deg);
+    }
+    20% {
+        //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+        transform: rotateY(360deg);
+    }
+    100% {
+        //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+        transform: rotateY(360deg);
+    }
+}
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+   @media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+    ==================== */
+
+    nav a {
+
+        width: 27%;
+        margin: 0 1.7%;
+        margin-bottom: 0;
+        padding: 18px 1%;
+        width: 100%
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+    div.cont nav ul{
+        text-align: center;
+    }
+
+    header.page-header .logo{
+        max-width: 450px;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+    ======================== */
+
+    nav ul li {
+        width: 18%;
+        display: inline-block;
+        margin-left: 1%;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+    ==================== */
+
+    .header-container,
+    .main aside {
+        -webkit-box-shadow: 0 5px 10px #aaa;
+        -moz-box-shadow: 0 5px 10px #aaa;
+        box-shadow: 0 5px 10px #aaa;
+    }
+
+/* ============
+    WIDE: Menu
+    ============ */
+
+
+
+    nav {
+        width: 100%;
+    }
+    
+    .hairstylists>div{
+        margin-top: 10px;
+    }
+    .hairstylists>div:not(:last-child) {
+        border-bottom: 2px solid grey;
+    }
+    div.cont .om-oss .hairstylists .hairstylist .avatar-cont{
+        float: left;
+        padding: 20px;
+    }
+    div.cont .om-oss .hairstylists .hairstylist .desc{
+        margin-left: 180px;
+        text-align: justify;
+        width: 70%;
+    }
+
+    .galleria{
+        max-width: 960px;
+        margin: 0 auto;
+        width: 100%;
+        height: 600px;
+    }
+    .galleria{  background: rgb(218, 240, 217) }
+
+    #back-top {
+        display: none;
+    }
+
+/* ============
+    WIDE: Main
+    ============ */
+
+    .main article {
+        float: left;
+        width: 57%;
+    }
+
+    .main aside {
+        float: right;
+        width: 28%;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+    =============== */
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+   .ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+   @media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

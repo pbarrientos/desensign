@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<title>Web developer assignment - Banner to HTML</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div class="example">
+		<div class="inline-block">
+			<p class="title">Original SWF English</p>
+			<embed width="250" height="250" name="plugin" src="250x250_English.swf" type="application/x-shockwave-flash">
+		</div>
+		<div class="inline-block">
+			<p class="title">Original SWF Swedish</p>
+			<embed width="250" height="250" name="plugin" src="250x250_Swedish.swf" type="application/x-shockwave-flash">
+		</div>
+	</div>
+
+	<div class="slide-container">
+		<p class="title">Patricio's implementation (HTML, CSS, JS)</p>
+		<div class="slide">
+			<div class="relative slide1">
+				<div class="text-container">
+					<div class="small"></div>
+					<div class="big"></div>
+				</div>
+			</div>
+			<div class="relative slide2">
+				<div class="text-container">
+					<div class="small"></div>
+					<div class="big"></div>
+				</div>
+			</div>
+			<a href="https://www.comeon.com" target="_blank" class="ui-button size-60 color-primary"></a>
+			<div class="relative slide3">
+				<div id="logo" class="ui-logo"></div>
+			</div>
+		</div>
+	</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script>
+	//Load xml from file
+	function loadXMLFile(filename)
+	{
+	    var xmlHTTP = new XMLHttpRequest();
+	    try
+	    {
+		    xmlHTTP.open("get", filename, false);
+		    xmlHTTP.send();
+	    }
+	    catch (e) {
+	        window.alert("Unable to load the requested file.");
+	        return;
+	    }
+	    return xmlHTTP.responseText;
+	}
+
+	//check language and load content
+	var lang = navigator.language || navigator.userLanguage; // en-US, sv
+	var filename = "xml/languages.xml";
+	var xml = loadXMLFile(filename);
+	xmlDoc = $.parseXML(xml);
+	$xml = $(xmlDoc);
+	$language = lang.substr(0,2);
+	
+	if ($language !== "sv")
+	{
+		//english version
+		$languageText = $xml.find("#en");
+		$("#logo").addClass(" logo-en");
+	}
+	else
+	{
+		//swedish version
+		$languageText = $xml.find("#sv");
+		$("#logo").addClass(" logo-sv");
+	}
+		
+	//loading content depending on browser's language
+	$buttonText = $languageText.find("button");
+	$slide1 = $languageText.find("slide1");
+	$slide2 = $languageText.find("slide2");
+	$slide1Small = $slide1.find("small");
+	$slide2Small = $slide2.find("small");
+	$slide1Big = $slide1.find("big");
+	$slide2Big = $slide2.find("big");
+
+	//appending content
+	$( ".slide1 .small" ).append($slide1Small.text());
+	$( ".slide2 .small" ).append($slide2Small.text());
+	$( ".slide1 .big" ).append($slide1Big.text());
+	$( ".slide2 .big" ).append($slide2Big.text());
+	$( ".ui-button" ).append($buttonText);
+</script>
+
+</body>
+</html>

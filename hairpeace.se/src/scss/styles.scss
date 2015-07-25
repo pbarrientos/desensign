@@ -1,0 +1,49 @@
+.page-header {
+	width: 100%;
+	h1 {
+		text-align: center;
+	}
+	&.logo {
+	}
+}
+#imageLoading {
+	display: block;
+	margin: 0 auto;
+}
+.imageRotateHorizontal {
+	animation: spinHorizontal 1.5s 1 linear;
+}
+@-moz-keyframes spinHorizontal {
+	0% {
+	}
+	100% {
+	}
+}
+@keyframes spinHorizontal {
+	0% {
+		//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: rotateY(0deg);
+	}
+	100% {
+		//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: rotateY(360deg);
+	}
+}
+@-ms-keyframes spinHorizontal {
+	0% {
+	}
+	100% {
+	}
+}
+@-o-keyframes spinHorizontal {
+	0% {
+	}
+	100% {
+	}
+}
+@-webkit-keyframes spinHorizontal {
+	0% {
+	}
+	100% {
+	}
+}

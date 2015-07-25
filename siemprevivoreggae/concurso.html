@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Concurso </title>
+
+<!-- Page styles -->
+<link type='text/css' href='css/form.css' rel='stylesheet' media='screen' />
+
+
+<!-- JS files are loaded at the bottom of the page -->
+</head>
+<body>
+<div class="contact-content" style="height: 400px;">
+		<h1 class="contact-title">Concurso SVR2013:</h1>
+		<div class="contact-loading" style="display:none"></div>
+		<div class="contact-message" style="display:none"></div>
+		<form id="concurso" action="enviar.php" method="post" enctype="multipart/form-data" style="">
+			<label for="artist-name">*Artista:</label>
+			<input type="text" id="artist-name" class="contact-input" name="artist-name" tabindex="1001">
+			<label for="song">*Canción (link soundcloud):</label>
+			<input type="text" id="song" class="contact-input" name="song" tabindex="1002">
+			<label for="picture">*Foto:</label>
+			<input type="hidden" name="MAX_FILE_SIZE" value="1000000">
+			<input type="file" name="picture" id="picture">
+			<label for="city">*Ciudad:</label>
+			<input type="text" id="city" class="contact-input" name="city" tabindex="1004">
+			<label for="contact-email">*Email contacto:</label>
+			<input type="text" id="contact-email" class="contact-input" name="contact-email" tabindex="1005">
+			<label for="contact-name">*Representante:</label>
+			<input type="text" id="contact-name" class="contact-input" name="contact-name" tabindex="1006">
+			<br>
+			<label>&nbsp;</label>
+			<button type="submit" class="contact-send contact-button" tabindex="1007">Send</button>
+			<button type="submit" class="contact-cancel contact-button simplemodal-close" tabindex="1008">Cancel</button>
+			<br>
+			<input type="hidden" name="token" value="59cf166d504cf24a4cf89e7d892d67d9">
+		</form>
+	</div>
+</body>
+</html>
