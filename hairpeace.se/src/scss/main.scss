@@ -1,5 +1,4 @@
-/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
-$brown : #4f453e;
+$brown: #4f453e;
 
 html,
 button,
@@ -173,7 +172,8 @@ div.cont nav ul li.menu-item a.menu-link{
 }
 
 /*  Om Oss  */
-div.cont .om-oss{
+div.cont .om-oss-description .medlem{
+    font-style: italic;
 
 }
 div.cont .om-oss-text, div.cont .priser,div.cont .galleri, div.cont .kontakt{
@@ -190,7 +190,16 @@ div.cont .om-oss .hairstylists{
 div.cont .om-oss .hairstylists .hairstylist {
     text-align: center;
     display: block;
+    float: left;
     width: 100%;
+}
+
+.hairstylists>div:not(:last-child) {
+        border-bottom: 2px solid grey;
+    }
+
+.hairstylists>div{
+    margin-top: 10px;
 }
 
 div.cont .om-oss .hairstylists .hairstylist .avatar-cont img{
@@ -244,7 +253,7 @@ div.cont .om-oss .hairstylists .hairstylist .desc{
     text-align: center;
 }
 #kontakt .social .instagram{
-    margin-left: 10px;
+    margin-left: -13px;
     margin-top: 17px;
 }
 #kontakt .social .instagram a{
@@ -385,12 +394,6 @@ div.cont .om-oss .hairstylists .hairstylist .desc{
         width: 100%;
     }
     
-    .hairstylists>div{
-        margin-top: 10px;
-    }
-    .hairstylists>div:not(:last-child) {
-        border-bottom: 2px solid grey;
-    }
     div.cont .om-oss .hairstylists .hairstylist .avatar-cont{
         float: left;
         padding: 20px;
